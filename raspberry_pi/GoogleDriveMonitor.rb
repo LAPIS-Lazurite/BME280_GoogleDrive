@@ -28,10 +28,10 @@ require 'net/http'
 require 'date'
 require './gdrive.rb'
 
-$client_id = "782385752123-loh1cu4n63vf7i92166kgpvm89pntk8n.apps.googleusercontent.com"
-$client_secret = "IlOR_UHyznpioFAB6qcDh3r6"
-$oauth2_code ="4/p3NUMgrMkEEdLjUzrY-aku97RSZIsKWZT4Ykx9hn0ks"
-$refresh_token = "1/joRC2IsKVmqDky0_EgijEK4GNvmKyOEZqXfL8ThxAXpIgOrJDtdun6zK6XiATCKT"
+$client_id = "ここにCliendIDを入れてください"
+$client_secret = "ここにClient Secretを入れてください"
+$oauth2_code ="ここにoauth2コードを入れてください"
+$refresh_token = "ここにリフレッシュトークンを入れてください"
 
 #JSON:
 #{
