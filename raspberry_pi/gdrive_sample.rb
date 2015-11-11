@@ -109,8 +109,8 @@ if __FILE__ == $0
     puts "1 Get OAuth2 code get URL."
     puts "2 Get RefreshToken JSON."
     puts "3 write 1 line to spredsheet"
-	puts "4 create GoogleDriveMonitor"
-    puts "5 execute GoogleDriveMonitor"
+#   puts "4 create GoogleDriveMonitor"
+#   puts "5 execute GoogleDriveMonitor"
     puts "6 quit"
     puts "\n"
 
@@ -122,10 +122,10 @@ if __FILE__ == $0
       when "1" then handle_get_url(client_id, redirect_url)
       when "2" then hendle_get_json(client_id, client_secret, redirect_url)
       when "3" then handle_write(client_id, client_secret)
-      when "4" then create_googleDriveMonitor
-      when "5" then 
-	  	system("sudo insmod /home/pi/driver/sub-ghz/DRV_802154.ko ch=33")
-	  	system("ruby1.9.3 GoogleDriveMonitor_tmp.rb")
+#     when "4" then create_googleDriveMonitor
+#     when "5" then 
+#	  	system("sudo insmod /home/pi/driver/sub-ghz/DRV_802154.ko ch=33")
+#	  	system("ruby1.9.3 GoogleDriveMonitor_tmp.rb")
       when "6" then
 	  	system("sudo rmmod DRV_802154")
 	  	exit(true)

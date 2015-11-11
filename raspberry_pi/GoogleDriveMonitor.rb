@@ -28,18 +28,10 @@ require 'net/http'
 require 'date'
 require './gdrive.rb'
 
-$client_id = "450391499427-bu74likslqfor54ae4vl8596ucgecupo.apps.googleusercontent.com"
-$client_secret = "_6fTwnYHIRdcAXv-icfEsiOx"
-$oauth2_code ="4/8V6G6xM5Hzthvtv7GvKiY02wOu-mweOWKoJKIsMNoGs"
-$refresh_token = "1/PykOYDIzGyyl7Y9HXdlk4RSy3c7N3QhhH3eyNUKRf1c"
-
-#JSON:
-#{
-#  "access_token" : "ya29.qgG3r6gUQPPeUMJ9D0VqHMnrb8oZQ8AvBkFzCMgSMvIqN9_S2iHoNtVOOtzVLiAx1xEj-vKth19a3Q",
-#  "token_type" : "Bearer",
-#  "expires_in" : 3600,
-#  "refresh_token" : "1/joRC2IsKVmqDky0_EgijEK4GNvmKyOEZqXfL8ThxAXpIgOrJDtdun6zK6XiATCKT"
-#}
+$client_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+$client_secret = "xxxxxxxxxxxxxxxxxxxxxxxx"
+$oauth2_code = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+$refresh_token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 
 ##
