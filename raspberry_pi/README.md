@@ -1,17 +1,17 @@
-#gdrive_sample.rb‚Ìg‚¢•û
-##ŠT—v
-Googleƒhƒ‰ƒCƒu‚ÖƒAƒNƒZƒX‚·‚é‚½‚ß‚Ì”FØƒR[ƒh‚ğæ“¾‚µA
-GoogleDrivieMonitorƒXƒNƒŠƒvƒg‚ğÀs‚µ‚Ü‚·B
+#gdrive_sample.rbã®ä½¿ã„æ–¹
+##æ¦‚è¦
+Googleãƒ‰ãƒ©ã‚¤ãƒ–ã¸ã‚¢ã‚¯ã‚»ã‚¹ã™ã‚‹ãŸã‚ã®èªè¨¼ã‚³ãƒ¼ãƒ‰ã‚’å–å¾—ã—ã€
+GoogleDrivieMonitorã‚¹ã‚¯ãƒªãƒ—ãƒˆã‚’å®Ÿè¡Œã—ã¾ã™ã€‚
 
-##Às•û–@
+##å®Ÿè¡Œæ–¹æ³•
 
-1.https://console.developers.google.com/ ClientIDAClientSecret‚ğæ“¾‚·‚éB
-2.gdrive_sample.rb‚ğÀs‚µAClientIDAClientSecret‚ğƒCƒ“ƒvƒbƒg‚·‚éB
-3.‰º‹L‚Ìƒƒjƒ…[1`5‚ğ‡”Ô‚ÉÀs‚µ‚Ü‚·B
+1.https://console.developers.google.com/ ClientIDã€ClientSecretã‚’å–å¾—ã™ã‚‹ã€‚
+2.gdrive_sample.rbã‚’å®Ÿè¡Œã—ã€ClientIDã€ClientSecretã‚’ã‚¤ãƒ³ãƒ—ãƒƒãƒˆã™ã‚‹ã€‚
+3.ä¸‹è¨˜ã®ãƒ¡ãƒ‹ãƒ¥ãƒ¼1ï½3ã‚’é †ç•ªã«å®Ÿè¡Œã—ã¾ã™ã€‚
 
     1 Get OAuth2 code get URL.
     2 Get RefreshToken JSON.
     3 write 1 line to spredsheet
     6 quit
 
-##’ˆÓ“_
+##æ³¨æ„ç‚¹
