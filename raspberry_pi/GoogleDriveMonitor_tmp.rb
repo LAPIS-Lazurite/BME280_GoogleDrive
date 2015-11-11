@@ -28,10 +28,10 @@ require 'net/http'
 require 'date'
 require './gdrive.rb'
 
-$client_id = "450391499427-bu74likslqfor54ae4vl8596ucgecupo.apps.googleusercontent.com"
-$client_secret = "_6fTwnYHIRdcAXv-icfEsiOx"
-$oauth2_code ="4/8V6G6xM5Hzthvtv7GvKiY02wOu-mweOWKoJKIsMNoGs"
-$refresh_token = "1/PykOYDIzGyyl7Y9HXdlk4RSy3c7N3QhhH3eyNUKRf1c"
+$client_id = "450391499427-cp3tf9l0p02gadp4k48gc048loar0qhq.apps.googleusercontent.com"
+$client_secret = "-GvHQiL4aQwGCLUyee_6YwBK"
+$oauth2_code = "4/OZ-BdEE-OuSblPRmmZlleJQlcwavlOL2c9a0oZUHjjc"
+$refresh_token = "1/gk38o9W0Mtty86oJDZ9sRJVsErZcSKDSjRt70PWFcqFIgOrJDtdun6zK6XiATCKT"
 
 #JSON:
 #{
@@ -111,7 +111,7 @@ class BP3596PipeApi
 	  print(sprintf("%s, 0x%04X , 0x%04X , 0x%04X , %s\r\n",t, myPanid,rxAddr,txAddr,csv))
 	  begin
 	    $session = Gdrive.create_session($client_id, $client_secret, $refresh_token)
-   	    $sheet = $session.open_spreadsheet("THP_logger")
+   	    $sheet = $session.open_spreadsheet("fafaf")
 	    $sheet.write_line(0, [t,myPanid,rxAddr,txAddr,csv[0],csv[1],csv[2],csv[3]]) 
 	  rescue Gdrive::Error => e
 	    p e
