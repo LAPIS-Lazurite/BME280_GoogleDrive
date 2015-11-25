@@ -1,6 +1,6 @@
 #define SUBGHZ_CH			36				//チャンネル／周波数です
 #define SUBGHZ_PANID		0xABCD			//PANIDです
-#define RX_ADDRESS			0xAC54			//受信機のアドレスです
+#define RX_ADDRESS			0x5FFA			//受信機のアドレスです
 
 #define BLUE_LED			26				//送信時に青色LEDを点灯させるためのPINです
 
