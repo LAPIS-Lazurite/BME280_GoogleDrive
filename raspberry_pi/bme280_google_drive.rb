@@ -11,7 +11,7 @@ laz = LazGem::Device.new
 
 # Google Drive Initializin
 session = GoogleDrive::Session.from_config("client_id.json")
-ws = session.spreadsheet_by_key("1N0recM6G4-L8JwQs28b9gNPvfycMuereVxGWQwKSAZA").worksheets[0]
+ws = session.spreadsheet_by_key("mysheet").worksheets[0]
 
 # Halt process when CTRL+C is pushed.
 finish_flag=0
